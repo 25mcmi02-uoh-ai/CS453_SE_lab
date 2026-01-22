@@ -22,7 +22,7 @@ All user input functions and whenever an input or output from user or file is re
 #### 6. Utils:
 Extra functions that doesn't belong to any of the previous.
 
-### Module Dependency Diagram:
+### Module Dependency Diagram (Has no meaning, just to show a diagram):
 ```mermaid
 graph TD
     A[FileIO] --> B[Student]
@@ -32,3 +32,5 @@ graph TD
     C --> A
     E --> A
 ```
+
+There was no enough time to make all changes, I will try better next time
