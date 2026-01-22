@@ -34,10 +34,10 @@ int main(int argc, char *argv[]) {
                 displayReport(students, num_students);
                 break;
             case 3:
-                writeResultsToFile("students.txt", students, num_students);
+                writeResultsToFile("data/students.txt", students, num_students);
                 break;
             case 4:
-                writeResultsToFile("students.txt", students, num_students);
+                writeResultsToFile("data/students.txt", students, num_students);
                 printf("Exiting the program.\n");
                 return 0;
             default:

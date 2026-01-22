@@ -13,10 +13,14 @@ void displayReport(Student students[], int count) {
         return;
     }
 
+    // AI was used in this function to format the report output neatly
     printf("===== Students Report =====\n");
-    printf("ID\tName\tTotal\tPercentage\tGrade\tCGPA\n");
+    printf("%-12s %-20s %-8s %-12s %-8s %-8s\n", 
+            "ID", "Name", "Total", "Percentage", "Grade", "CGPA");
+    printf("%-12s %-20s %-8s %-12s %-8s %-8s\n", 
+            "----------", "--------------------", "------", "----------", "------", "------");
     for(int i = 0; i < count; i++) {
-        printf("%s\t%s\t%d\t%.2f\t\t%s\t%.2f\n", 
+        printf("%-12s %-20s %-8d %-12.2f %-8s %-8.2f\n", 
                students[i].id, 
                students[i].name, 
                students[i].total, 
