@@ -1,6 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 
+#include "student.h"
+#include "validation.h"
 #include "utils.h"
+#include "fileio.h"
+#include "report.h"
 
 void displayUserMenu() {
     printf("===== Student Management System =====\n");

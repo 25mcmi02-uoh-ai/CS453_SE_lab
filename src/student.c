@@ -1,7 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-#include "validation.h"
 #include "student.h"
+#include "validation.h"
+#include "utils.h"
+#include "fileio.h"
+#include "report.h"
 
 void addStudent(Student students[], int *count) {
     // check if we exceed max students

@@ -3,12 +3,14 @@
 
 #include "student.h"
 
-void calculateTotal(Student *s);
-void calculatePercentage(Student *s);
-void assignGrade(Student *s);
-float calculateCGPA(const char *grade);
+// void calculateTotal(Student *s);
+// void calculatePercentage(Student *s);
+// void assignGrade(Student *s);
+// float calculateCGPA(const char *grade);
 
-// to calculate all computations for a student
-void processStudent(Student *s);
+// // to calculate all computations for a student
+// void processStudent(Student *s);
+
+void calculateGradeAndCGPA(Student *s);
 
 #endif

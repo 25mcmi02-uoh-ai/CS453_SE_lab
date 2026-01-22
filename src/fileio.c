@@ -1,8 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-#include "validation.h"
 #include "student.h"
+#include "validation.h"
+#include "utils.h"
 #include "fileio.h"
+#include "report.h"
 
 void writeResultsToFile(const char *filename, Student students[], int count) {
     FILE *file = fopen(filename, "w");
@@ -13,7 +16,7 @@ void writeResultsToFile(const char *filename, Student students[], int count) {
 
     fprintf(file, "ID,Name,Total,Percentage,Grade,CGPA\n");
     for(int i = 0; i < count; i++) {
-        fprintf(file, "%s,%s,%d,%.2f,%c,%.2f\n", 
+        fprintf(file, "%s,%s,%d,%.2f,%s,%.2f\n", 
                 students[i].id, 
                 students[i].name, 
                 students[i].total, 

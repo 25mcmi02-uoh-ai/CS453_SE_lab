@@ -20,4 +20,4 @@ clean:
 
 .PHONY: run
 run: $(TARGET)
-	./$(TARGET)
+	./$(TARGET) 10

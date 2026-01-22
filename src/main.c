@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 #include "student.h"
+#include "validation.h"
 #include "utils.h"
 #include "fileio.h"
 #include "report.h"
