@@ -3,7 +3,7 @@
 
 #define MAX_STUDENTS 100
 #define SUBJECTS 5
-#define MAX_ID_LEN 20
+#define MAX_ID_LEN 10
 #define MAX_NAME_LEN 50
 
 typedef struct {
@@ -15,5 +15,9 @@ typedef struct {
     char grade[3];
     float cgpa;
 } Student;
+
+// void createStudentArray(int num_students, Student students[]);
+void addStudent(Student students[], int *count);
+// void displayStudent(const Student *s);
 
 #endif
